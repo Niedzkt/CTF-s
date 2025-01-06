@@ -1,0 +1,7 @@
+krbtgt
+Guest
+Administrator
+CICADA-DC$
+sarah.dantelia
+michael.wrightson
+john.smoulder

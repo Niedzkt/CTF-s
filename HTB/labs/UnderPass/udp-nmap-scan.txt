@@ -1,0 +1,34 @@
+# Nmap 7.94SVN scan initiated Mon Jan  6 08:14:01 2025 as: /usr/lib/nmap/nmap --privileged -Pn -sU -sV -T3 --top-ports 25 -oN udp-nmap-scan.txt 10.10.11.48
+Nmap scan report for 10.10.11.48
+Host is up (0.085s latency).
+
+PORT      STATE         SERVICE      VERSION
+53/udp    closed        domain
+67/udp    open|filtered dhcps
+68/udp    closed        dhcpc
+69/udp    closed        tftp
+111/udp   closed        rpcbind
+123/udp   closed        ntp
+135/udp   open|filtered msrpc
+137/udp   open|filtered netbios-ns
+138/udp   closed        netbios-dgm
+139/udp   open|filtered netbios-ssn
+161/udp   open          snmp         SNMPv1 server; net-snmp SNMPv3 server (public)
+162/udp   open|filtered snmptrap
+445/udp   closed        microsoft-ds
+500/udp   closed        isakmp
+514/udp   closed        syslog
+520/udp   open|filtered route
+631/udp   closed        ipp
+998/udp   closed        puparp
+1434/udp  closed        ms-sql-m
+1701/udp  closed        L2TP
+1900/udp  closed        upnp
+4500/udp  open|filtered nat-t-ike
+5353/udp  closed        zeroconf
+49152/udp open|filtered unknown
+49154/udp closed        unknown
+Service Info: Host: UnDerPass.htb is the only daloradius server in the basin!
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Jan  6 08:15:25 2025 -- 1 IP address (1 host up) scanned in 83.72 seconds

@@ -1,0 +1,5 @@
+
+; <<>> DiG 9.20.4-3-Debian <<>> axfr @10.10.11.35 cicada.htb
+; (1 server found)
+;; global options: +cmd
+; Transfer failed.

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.94SVN scan initiated Mon Jan  6 05:28:13 2025 as: /usr/lib/nmap/nmap -&#45;privileged -p22,80 -A -sV -sC -O -oA nmap_scan 10.10.11.48 -->
+<nmaprun scanner="nmap" args="/usr/lib/nmap/nmap -&#45;privileged -p22,80 -A -sV -sC -O -oA nmap_scan 10.10.11.48" start="1736159293" startstr="Mon Jan  6 05:28:13 2025" version="7.94SVN" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="2" services="22,80"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.10.11.48" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1736159293" endtime="1736159307"><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="10.10.11.48" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="ssh" product="OpenSSH" version="8.9p1 Ubuntu 3ubuntu0.10" extrainfo="Ubuntu Linux; protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:8.9p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="ssh-hostkey" output="&#xa;  256 48:b0:d2:c7:29:26:ae:3d:fb:b7:6b:0f:f5:4d:2a:ea (ECDSA)&#xa;  256 cb:61:64:b8:1b:1b:b5:ba:b8:45:86:c5:16:bb:e2:a2 (ED25519)"><table>
+<elem key="bits">256</elem>
+<elem key="type">ecdsa-sha2-nistp256</elem>
+<elem key="fingerprint">48b0d2c72926ae3dfbb76b0ff54d2aea</elem>
+<elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBK+kvbyNUglQLkP2Bp7QVhfp7EnRWMHVtM7xtxk34WU5s+lYksJ07/lmMpJN/bwey1SVpG0FAgL0C/+2r71XUEo=</elem>
+</table>
+<table>
+<elem key="bits">256</elem>
+<elem key="type">ssh-ed25519</elem>
+<elem key="fingerprint">cb6164b81b1bb5bab84586c516bbe2a2</elem>
+<elem key="key">AAAAC3NzaC1lZDI1NTE5AAAAIJ8XNCLFSIxMNibmm+q7mFtNDYzoGAJ/vDNa6MUjfU91</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="http" product="Apache httpd" version="2.4.52" extrainfo="(Ubuntu)" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.52</cpe></service><script id="http-title" output="Apache2 Ubuntu Default Page: It works"><elem key="title">Apache2 Ubuntu Default Page: It works</elem>
+</script><script id="http-server-header" output="Apache/2.4.52 (Ubuntu)"><elem>Apache/2.4.52 (Ubuntu)</elem>
+</script></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="22"/>
+<portused state="closed" proto="udp" portid="32099"/>
+<osmatch name="Linux 5.0" accuracy="100" line="68054">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="5.X" accuracy="100"><cpe>cpe:/o:linux:linux_kernel:5.0</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="2386663" lastboot="Mon Dec  9 14:30:44 2024"/>
+<distance value="2"/>
+<tcpsequence index="260" difficulty="Good luck!" values="401F2341,D6DBCBD8,1FEEFC7B,746C168A,E2F5F21A,F776B48E"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0,0"/>
+<tcptssequence class="1000HZ" values="8E417C8A,8E417C8A,8E417D29,8E417D38,8E417D9A,8E417EBA"/>
+<trace port="22" proto="tcp">
+<hop ttl="1" ipaddr="10.10.14.1" rtt="348.33"/>
+<hop ttl="2" ipaddr="10.10.11.48" rtt="348.42"/>
+</trace>
+<times srtt="139589" rttvar="129045" to="655769"/>
+</host>
+<runstats><finished time="1736159307" timestr="Mon Jan  6 05:28:27 2025" summary="Nmap done at Mon Jan  6 05:28:27 2025; 1 IP address (1 host up) scanned in 14.00 seconds" elapsed="14.00" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

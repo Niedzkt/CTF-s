@@ -1,0 +1,1 @@
+# Nmap 7.94SVN scan initiated Mon Jan  6 07:06:07 2025 as: /usr/lib/nmap/nmap --privileged -p- -oA nmap_all-ports 10.10.11.44

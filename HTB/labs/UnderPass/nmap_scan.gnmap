@@ -1,0 +1,4 @@
+# Nmap 7.94SVN scan initiated Mon Jan  6 05:28:13 2025 as: /usr/lib/nmap/nmap --privileged -p22,80 -A -sV -sC -O -oA nmap_scan 10.10.11.48
+Host: 10.10.11.48 ()	Status: Up
+Host: 10.10.11.48 ()	Ports: 22/open/tcp//ssh//OpenSSH 8.9p1 Ubuntu 3ubuntu0.10 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.52 ((Ubuntu))/	OS: Linux 5.0	Seq Index: 260	IP ID Seq: All zeros
+# Nmap done at Mon Jan  6 05:28:27 2025 -- 1 IP address (1 host up) scanned in 14.00 seconds
