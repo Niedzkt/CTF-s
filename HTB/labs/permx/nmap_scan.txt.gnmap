@@ -1,0 +1,4 @@
+# Nmap 7.95 scan initiated Fri Jan 17 17:16:27 2025 as: /usr/lib/nmap/nmap --privileged -sC -sV -O -p22,80 -oA nmap_scan.txt permx.htb
+Host: 10.10.11.23 (permx.htb)	Status: Up
+Host: 10.10.11.23 (permx.htb)	Ports: 22/open/tcp//ssh//OpenSSH 8.9p1 Ubuntu 3ubuntu0.10 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.52/	OS: Linux 4.15 - 5.19|Linux 5.0|Linux 5.0 - 5.14	Seq Index: 262	IP ID Seq: All zeros
+# Nmap done at Fri Jan 17 17:16:41 2025 -- 1 IP address (1 host up) scanned in 13.93 seconds

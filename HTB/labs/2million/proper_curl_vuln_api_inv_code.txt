@@ -1,0 +1,2 @@
+└─$ curl -X POST -H "Content-Type: application/json" -d '{}' http://2million.htb/api/v1/invite/generate       
+{"0":200,"success":1,"data":{"code":"TFg0RjQtQVNIQUMtWFZBWDctWk01MDU=","format":"encoded"}}     

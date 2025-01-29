@@ -1,0 +1,22 @@
+# Nmap 7.95 scan initiated Fri Jan 17 17:16:27 2025 as: /usr/lib/nmap/nmap --privileged -sC -sV -O -p22,80 -oA nmap_scan.txt permx.htb
+Nmap scan report for permx.htb (10.10.11.23)
+Host is up (0.098s latency).
+
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.9p1 Ubuntu 3ubuntu0.10 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   256 e2:5c:5d:8c:47:3e:d8:72:f7:b4:80:03:49:86:6d:ef (ECDSA)
+|_  256 1f:41:02:8e:6b:17:18:9c:a0:ac:54:23:e9:71:30:17 (ED25519)
+80/tcp open  http    Apache httpd 2.4.52
+|_http-server-header: Apache/2.4.52 (Ubuntu)
+|_http-title: eLEARNING
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running: Linux 4.X|5.X
+OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5
+OS details: Linux 4.15 - 5.19, Linux 5.0, Linux 5.0 - 5.14
+Network Distance: 2 hops
+Service Info: Host: 127.0.1.1; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Jan 17 17:16:41 2025 -- 1 IP address (1 host up) scanned in 13.93 seconds
