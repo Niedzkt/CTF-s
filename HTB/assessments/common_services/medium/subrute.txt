@@ -1,0 +1,8 @@
+└─$ ./subbrute.py inlanefreight.htb -s ./names.txt -r ./resolvers.txt
+/home/kali/Documents/subbrute/./subbrute.py:462: SyntaxWarning: invalid escape sequence '\.'
+  permute_filter = re.compile("^[a-zA-Z0-9]{" + str(self.permute_len) + "}\.")
+Warning: Fewer than 16 resolvers per process, consider adding more nameservers to resolvers.txt.
+inlanefreight.htb
+app.inlanefreight.htb
+
+

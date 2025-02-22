@@ -1,0 +1,54 @@
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-02-16 13:43 CET
+Nmap scan report for 10.129.255.196
+Host is up (0.24s latency).
+
+PORT     STATE SERVICE       VERSION
+135/tcp  open  msrpc         Microsoft Windows RPC
+445/tcp  open  microsoft-ds?
+1433/tcp open  ms-sql-s      Microsoft SQL Server 2019 15.00.2000.00; RTM
+| ms-sql-info: 
+|   10.129.255.196:1433: 
+|     Version: 
+|       name: Microsoft SQL Server 2019 RTM
+|       number: 15.00.2000.00
+|       Product: Microsoft SQL Server 2019
+|       Service pack level: RTM
+|       Post-SP patches applied: false
+|_    TCP port: 1433
+| ms-sql-ntlm-info: 
+|   10.129.255.196:1433: 
+|     Target_Name: WIN-HARD
+|     NetBIOS_Domain_Name: WIN-HARD
+|     NetBIOS_Computer_Name: WIN-HARD
+|     DNS_Domain_Name: WIN-HARD
+|     DNS_Computer_Name: WIN-HARD
+|_    Product_Version: 10.0.17763
+| ssl-cert: Subject: commonName=SSL_Self_Signed_Fallback
+| Not valid before: 2025-02-16T12:38:22
+|_Not valid after:  2055-02-16T12:38:22
+|_ssl-date: 2025-02-16T12:43:56+00:00; 0s from scanner time.
+3389/tcp open  ms-wbt-server Microsoft Terminal Services
+|_ssl-date: 2025-02-16T12:43:56+00:00; 0s from scanner time.
+| ssl-cert: Subject: commonName=WIN-HARD
+| Not valid before: 2025-02-15T12:38:11
+|_Not valid after:  2025-08-17T12:38:11
+| rdp-ntlm-info: 
+|   Target_Name: WIN-HARD
+|   NetBIOS_Domain_Name: WIN-HARD
+|   NetBIOS_Computer_Name: WIN-HARD
+|   DNS_Domain_Name: WIN-HARD
+|   DNS_Computer_Name: WIN-HARD
+|   Product_Version: 10.0.17763
+|_  System_Time: 2025-02-16T12:43:16+00:00
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-security-mode: 
+|   3:1:1: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2025-02-16T12:43:20
+|_  start_date: N/A
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 56.37 seconds
