@@ -1,0 +1,26 @@
+# Nmap 7.95 scan initiated Mon Feb 24 18:49:20 2025 as: /usr/lib/nmap/nmap --privileged -sC -sV -O -oN nmap-scan 10.10.10.15
+Nmap scan report for 10.10.10.15
+Host is up (0.58s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Microsoft IIS httpd 6.0
+|_http-title: Under Construction
+| http-webdav-scan: 
+|   Allowed Methods: OPTIONS, TRACE, GET, HEAD, DELETE, COPY, MOVE, PROPFIND, PROPPATCH, SEARCH, MKCOL, LOCK, UNLOCK
+|   Public Options: OPTIONS, TRACE, GET, HEAD, DELETE, PUT, POST, COPY, MOVE, MKCOL, PROPFIND, PROPPATCH, LOCK, UNLOCK, SEARCH
+|   Server Type: Microsoft-IIS/6.0
+|   WebDAV type: Unknown
+|_  Server Date: Mon, 24 Feb 2025 17:50:22 GMT
+|_http-server-header: Microsoft-IIS/6.0
+| http-methods: 
+|_  Potentially risky methods: TRACE DELETE COPY MOVE PROPFIND PROPPATCH SEARCH MKCOL LOCK UNLOCK PUT
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows 2003|XP|2000 (87%)
+OS CPE: cpe:/o:microsoft:windows_server_2003::sp1 cpe:/o:microsoft:windows_server_2003::sp2 cpe:/o:microsoft:windows_xp::sp3 cpe:/o:microsoft:windows_2000::sp4
+Aggressive OS guesses: Microsoft Windows Server 2003 SP1 or SP2 (87%), Microsoft Windows XP SP3 (87%), Microsoft Windows Server 2003 SP1 (86%), Microsoft Windows Server 2003 SP1 or SP2 or Windows XP SP1 (86%), Microsoft Windows Server 2003 SP2 (86%), Microsoft Windows 2000 SP4 or Windows XP Professional SP1 (86%), Microsoft Windows 2003 SP2 (86%), Micrososft Windows Server 2003 SP2 (85%)
+No exact OS matches for host (test conditions non-ideal).
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Feb 24 18:50:35 2025 -- 1 IP address (1 host up) scanned in 75.67 seconds
