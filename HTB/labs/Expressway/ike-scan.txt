@@ -1,0 +1,12 @@
+WARNING: Cannot open Vendor ID patterns file.  ike-scan will still display
+the raw Vendor ID data in hex, but it will not be able to display the
+associated Vendor ID names.
+fopen: /usr/local/share/ike-scan/ike-vendor-ids: No such file or directory
+Starting ike-scan 1.9.6 with 1 hosts (http://www.nta-monitor.com/tools/ike-scan/)
+10.10.11.87	Main Mode Handshake returned
+	HDR=(CKY-R=9f0d4b17ed1d61c4)
+	SA=(Enc=3DES Hash=SHA1 Group=2:modp1024 Auth=PSK LifeType=Seconds LifeDuration=28800)
+	VID=09002689dfd6b712
+	VID=afcad71368a1f1c96b8696fc77570100
+
+Ending ike-scan 1.9.6: 1 hosts scanned in 0.219 seconds (4.57 hosts/sec).  1 returned handshake; 0 returned notify

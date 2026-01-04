@@ -1,0 +1,7 @@
+mysql> select * from users where username="HTB";
++------+----------+------------------------------+
+| id   | username | password                     |
++------+----------+------------------------------+
+|  150 | HTB      | cr3n4o7rzse7rzhnckhssncif7ds |
++------+----------+------------------------------+
+1 row in set (0.00 sec)

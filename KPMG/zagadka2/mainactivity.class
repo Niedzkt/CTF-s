@@ -1,0 +1,67 @@
+package com.example.hckademy;
+
+import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.Toast;
+import d.e;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.util.Objects;
+import java.util.function.IntFunction;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
+import x0.a;
+
+public class MainActivity extends e {
+  static {
+    System.loadLibrary("c.");
+  }
+  
+  public native boolean check2(String paramString, byte[] paramArrayOfbyte);
+  
+  public void onCheck(View paramView) {
+    String str1 = ((EditText)findViewById(2131230909)).getText().toString();
+    StringBuilder stringBuilder2 = new StringBuilder();
+    stringBuilder2.append("onCheck: ");
+    stringBuilder2.append(str1);
+    Log.d("H@ckademy - MainActivity", stringBuilder2.toString());
+    byte[] arrayOfByte1 = str1.getBytes();
+    byte[] arrayOfByte2 = getString(2131689472).getBytes();
+    for (byte b = 0; b < arrayOfByte1.length; b++)
+      arrayOfByte1[arrayOfByte1.length - b - 1] = (byte)(byte)(arrayOfByte1[arrayOfByte1.length - b - 1] ^ arrayOfByte2[b % arrayOfByte2.length]); 
+    String str2 = IntStream.range(0, arrayOfByte1.length).<CharSequence>mapToObj((IntFunction<? extends CharSequence>)new a(arrayOfByte1)).collect(Collectors.joining());
+    StringBuilder stringBuilder1 = new StringBuilder();
+    stringBuilder1.append("check1: ");
+    stringBuilder1.append(str2);
+    Log.d("H@ckademy - MainActivity", stringBuilder1.toString());
+    if (!Objects.equals(str2, "25393f33080c563b242200422f276327293616442c353a0e211c6c2f443e1e38035900474c3d")) {
+      byte[] arrayOfByte;
+      try {
+        MessageDigest messageDigest = MessageDigest.getInstance("SHA-512");
+        messageDigest.update(str1.getBytes());
+        arrayOfByte = messageDigest.digest();
+      } catch (NoSuchAlgorithmException noSuchAlgorithmException) {
+        noSuchAlgorithmException.printStackTrace();
+        arrayOfByte = new byte[0];
+      } 
+      if (check2(str1, arrayOfByte)) {
+        Toast.makeText(getApplicationContext(), "Congratulations! You've found the flag!", 1).show();
+        Log.d("H@ckademy - MainActivity", "success! Congratulations! You've found the flag!");
+        return;
+      } 
+      Toast.makeText(getApplicationContext(), "Incorrect flag!", 1).show();
+      Log.wtf("H@ckademy - MainActivity", "error! Incorrect flag!");
+      return;
+    } 
+    Toast.makeText(getApplicationContext(), "Congratulations! You've found the flag!", 1).show();
+    Log.d("H@ckademy - MainActivity", "success! Congratulations! You've found the flag!");
+  }
+  
+  public void onCreate(Bundle paramBundle) {
+    super.onCreate(paramBundle);
+    setContentView(2131427356);
+  }
+}
+

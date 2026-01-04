@@ -1,0 +1,35 @@
+Not shown: 984 closed udp ports (port-unreach)
+PORT      STATE         SERVICE        VERSION
+68/udp    open|filtered dhcpc
+69/udp    open          tftp           Netkit tftpd or atftpd
+500/udp   open          isakmp?
+998/udp   open|filtered puparp
+1020/udp  open|filtered unknown
+3659/udp  open|filtered apple-sasl
+4500/udp  open|filtered nat-t-ike
+5010/udp  open|filtered telelpathstart
+18987/udp open|filtered unknown
+19722/udp open|filtered unknown
+28973/udp open|filtered unknown
+31195/udp open|filtered unknown
+31365/udp open|filtered unknown
+45441/udp open|filtered unknown
+49171/udp open|filtered unknown
+65024/udp open|filtered unknown
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port500-UDP:V=7.98%I=7%D=1/4%Time=695AB522%P=x86_64-pc-linux-gnu%r(IKE_
+SF:MAIN_MODE,70,"\0\x11\"3DUfw%0\x17\x86\xe3\^\x7f\x97\x01\x10\x02\0\0\0\0
+SF:\0\0\0\0p\r\0\x004\0\0\0\x01\0\0\0\x01\0\0\0\(\x01\x01\0\x01\0\0\0\x20\
+SF:x01\x01\0\0\x80\x01\0\x05\x80\x02\0\x02\x80\x04\0\x02\x80\x03\0\x01\x80
+SF:\x0b\0\x01\x80\x0c\0\x01\r\0\0\x0c\t\0&\x89\xdf\xd6\xb7\x12\0\0\0\x14\x
+SF:af\xca\xd7\x13h\xa1\xf1\xc9k\x86\x96\xfcwW\x01\0")%r(IPSEC_START,9C,"1'
+SF:\xfc\xb08\x10\x9e\x89\x8c\xc3O\x80\xf2\xc5G\xa3\x01\x10\x02\0\0\0\0\0\0
+SF:\0\0\x9c\r\0\x004\0\0\0\x01\0\0\0\x01\0\0\0\(\x01\x01\0\x01\0\0\0\x20\x
+SF:01\x01\0\0\x80\x01\0\x05\x80\x02\0\x02\x80\x04\0\x02\x80\x03\0\x03\x80\
+SF:x0b\0\x01\x80\x0c\x0e\x10\r\0\0\x0c\t\0&\x89\xdf\xd6\xb7\x12\r\0\0\x14\
+SF:xaf\xca\xd7\x13h\xa1\xf1\xc9k\x86\x96\xfcwW\x01\0\r\0\0\x18@H\xb7\xd5n\
+SF:xbc\xe8\x85%\xe7\xde\x7f\0\xd6\xc2\xd3\x80\0\0\0\0\0\0\x14\x90\xcb\x80\
+SF:x91>\xbbin\x08c\x81\xb5\xecB{\x1f");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 1185.41 seconds

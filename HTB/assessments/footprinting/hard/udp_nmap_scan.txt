@@ -1,0 +1,17 @@
+Starting Nmap 7.98 ( https://nmap.org ) at 2025-11-25 16:42 +0100
+
+Nmap scan report for 10.129.202.20
+Host is up (0.52s latency).
+Not shown: 998 closed udp ports (port-unreach)
+PORT    STATE         SERVICE VERSION
+68/udp  open|filtered dhcpc
+161/udp open          snmp    net-snmp; net-snmp SNMPv3 server
+| snmp-info: 
+|   enterprise: net-snmp
+|   engineIDFormat: unknown
+|   engineIDData: 5b99e75a10288b6100000000
+|   snmpEngineBoots: 11
+|_  snmpEngineTime: 1h04m29s
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 1249.89 seconds
