@@ -1,0 +1,1 @@
+curl http://blog.inlanefreight.local/wp-content/uploads/upload_flag.txt | html2text

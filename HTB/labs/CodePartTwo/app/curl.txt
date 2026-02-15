@@ -1,0 +1,4 @@
+ curl --header "Content-Type: application/json" \
+  --request POST \
+  --data '{"code":"print(2+3)"}' \
+  http://10.129.5.57:8000/run_code

