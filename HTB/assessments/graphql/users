@@ -1,0 +1,24 @@
+{
+  "data": {
+    "allEmployees": [
+      {
+        "id": "RW1wbG95ZWVPYmplY3Q6MQ==",
+        "username": "vautia",
+        "employeeId": 1337,
+        "role": "employee"
+      },
+      {
+        "id": "RW1wbG95ZWVPYmplY3Q6Mg==",
+        "username": "pedant",
+        "employeeId": 1338,
+        "role": "employee"
+      },
+      {
+        "id": "RW1wbG95ZWVPYmplY3Q6Mw==",
+        "username": "21y4d",
+        "employeeId": 1339,
+        "role": "manager"
+      }
+    ]
+  }
+}

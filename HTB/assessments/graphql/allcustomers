@@ -1,0 +1,24 @@
+{
+  "data": {
+    "allCustomers": [
+      {
+        "id": "Q3VzdG9tZXJPYmplY3Q6MQ==",
+        "firstName": "Antony",
+        "lastName": "Blair",
+        "address": "13 Hide A Way Road. Winter Park, FL 32789"
+      },
+      {
+        "id": "Q3VzdG9tZXJPYmplY3Q6Mg==",
+        "firstName": "Margaret",
+        "lastName": "Liverman",
+        "address": "4797 New Street. Coos Bay, OR 97420 "
+      },
+      {
+        "id": "Q3VzdG9tZXJPYmplY3Q6Mw==",
+        "firstName": "Billy",
+        "lastName": "Sawyer",
+        "address": "587 Hickory Lane. Washington, DC 20017 "
+      }
+    ]
+  }
+}

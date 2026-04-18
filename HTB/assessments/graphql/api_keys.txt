@@ -1,0 +1,21 @@
+{
+  "data": {
+    "activeApiKeys": [
+      {
+        "id": "QXBpS2V5T2JqZWN0OjE=",
+        "role": "guest",
+        "key": "fbb64ce26fbe8a8d8d6895b8e6ba21a3"
+      },
+      {
+        "id": "QXBpS2V5T2JqZWN0OjI=",
+        "role": "guest",
+        "key": "9cf8622bbc9fdc78f245663e08e5b4c1"
+      },
+      {
+        "id": "QXBpS2V5T2JqZWN0OjM=",
+        "role": "admin",
+        "key": "0711a879ed751e63330a78a4b195bbad"
+      }
+    ]
+  }
+}

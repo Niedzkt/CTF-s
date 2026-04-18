@@ -1,0 +1,83 @@
+{
+  "data": {
+    "__schema": {
+      "types": [
+        {
+          "name": "Query"
+        },
+        {
+          "name": "Node"
+        },
+        {
+          "name": "ID"
+        },
+        {
+          "name": "EmployeeObject"
+        },
+        {
+          "name": "String"
+        },
+        {
+          "name": "Int"
+        },
+        {
+          "name": "ProductObject"
+        },
+        {
+          "name": "ApiKeyObject"
+        },
+        {
+          "name": "CustomerObject"
+        },
+        {
+          "name": "Mutation"
+        },
+        {
+          "name": "AddEmployee"
+        },
+        {
+          "name": "AddEmployeeInput"
+        },
+        {
+          "name": "AddProduct"
+        },
+        {
+          "name": "AddProductInput"
+        },
+        {
+          "name": "AddCustomer"
+        },
+        {
+          "name": "AddCustomerInput"
+        },
+        {
+          "name": "__Schema"
+        },
+        {
+          "name": "__Type"
+        },
+        {
+          "name": "__TypeKind"
+        },
+        {
+          "name": "Boolean"
+        },
+        {
+          "name": "__Field"
+        },
+        {
+          "name": "__InputValue"
+        },
+        {
+          "name": "__EnumValue"
+        },
+        {
+          "name": "__Directive"
+        },
+        {
+          "name": "__DirectiveLocation"
+        }
+      ]
+    }
+  }
+}
